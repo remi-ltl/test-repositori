@@ -22,7 +22,9 @@ bool HelloWorld::init()
 {
     //////////////////////////////
     // 1. super init first
-    if ( !CCLayer::init() )
+    if ( !CCLayerGradient::initWithColor(ccc4(70, 145, 15, 255), ccc4(170, 220, 255, 255),
+    		ccp(0.0f, 1.0f)))
+
     {
         return false;
     }

@@ -17,6 +17,9 @@ public:
 
     // implement the "static node()" method manually
     CREATE_FUNC(Title);
+
+private:
+    cocos2d::CCSprite* pSprite;
 };
 
 #endif /* defined(__cocos2d_x_game__TitleScene__) */

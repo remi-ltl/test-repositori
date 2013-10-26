@@ -20,7 +20,22 @@ bool AppDelegate::applicationDidFinishLaunching() {
     pDirector->setOpenGLView(pEGLView);
 	
     // turn on display FPS
+    //FPS‚È‚Ç‚Ì•\Ž¦
     pDirector->setDisplayStats(true);
+
+#if (CC_TARGET_PLATFORM == CC_PLATFORM_IOS)
+    CCEGLView* view = CCDirector::sharedDirector()->getOpenGLView();
+    CCSize frame = view->getFrameSize();
+    if (frame.height==1136.0) {
+        // iPhone5‚È‚Ç‚Ì‰ð‘œ“x
+        CCEGLView::sharedOpenGLView()->setDesignResolutionSize(320, 568, kResolutionExactFit);
+    } else {
+        CCEGLView::sharedOpenGLView()->setDesignResolutionSize(320, 480, kResolutionExactFit);
+    }
+#else
+    // Android—p
+    CCEGLView::sharedOpenGLView()->setDesignResolutionSize(320, 480, kResolutionExactFit);
+#endif
 
     // set FPS. the default value is 1.0/60 if you don't call this
     pDirector->setAnimationInterval(1.0 / 60);

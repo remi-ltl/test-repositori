@@ -3,7 +3,7 @@
 
 #include "cocos2d.h"
 
-class HelloWorld : public cocos2d::CCLayer
+class HelloWorld : public cocos2d::CCLayerGradient
 {
 public:
     // Here's a difference. Method 'init' in cocos2d-x returns bool, instead of returning 'id' in cocos2d-iphone
@@ -17,6 +17,7 @@ public:
     
     // implement the "static node()" method manually
     CREATE_FUNC(HelloWorld);
+
 };
 
 #endif // __HELLOWORLD_SCENE_H__

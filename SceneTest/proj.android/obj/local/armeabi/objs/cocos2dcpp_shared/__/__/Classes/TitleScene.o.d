@@ -203,7 +203,9 @@ obj/local/armeabi/objs/cocos2dcpp_shared/__/__/Classes/TitleScene.o: \
  /cygdrive/c/prj/cocos2d-x-2.2/projects/SceneTest/proj.android/../../../cocos2dx/support/data_support/uthash.h \
  /cygdrive/c/prj/cocos2d-x-2.2/projects/SceneTest/proj.android/../../../cocos2dx/support/component/CCComponent.h \
  /cygdrive/c/prj/cocos2d-x-2.2/projects/SceneTest/proj.android/../../../cocos2dx/support/component/CCComponentContainer.h \
- jni/../../Classes/HelloWorldScene.h
+ jni/../../Classes/HelloWorldScene.h jni/../../Classes/GameManager.h \
+ /cygdrive/c/prj/cocos2d-x-2.2/projects/SceneTest/proj.android/../../../cocos2dx/../CocosDenshion/include/SimpleAudioEngine.h \
+ /cygdrive/c/prj/cocos2d-x-2.2/projects/SceneTest/proj.android/../../../cocos2dx/../CocosDenshion/include/Export.h
 
 jni/../../Classes/TitleScene.h:
 
@@ -614,3 +616,9 @@ jni/../../Classes/TitleScene.h:
 /cygdrive/c/prj/cocos2d-x-2.2/projects/SceneTest/proj.android/../../../cocos2dx/support/component/CCComponentContainer.h:
 
 jni/../../Classes/HelloWorldScene.h:
+
+jni/../../Classes/GameManager.h:
+
+/cygdrive/c/prj/cocos2d-x-2.2/projects/SceneTest/proj.android/../../../cocos2dx/../CocosDenshion/include/SimpleAudioEngine.h:
+
+/cygdrive/c/prj/cocos2d-x-2.2/projects/SceneTest/proj.android/../../../cocos2dx/../CocosDenshion/include/Export.h:
